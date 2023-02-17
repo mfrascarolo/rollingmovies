@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+header{
+    font-family: 'Anton', sans-serif;
+
+}
+.titulo{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #BD2A2E;
+    font-weight: 500;
+    -webkit-text-stroke: 0.5px #fff;
+    transition: 0.4s;
+    
+
+}
+.titulo:hover{
+color:  black;
+}
+
