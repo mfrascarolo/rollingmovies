@@ -1,0 +1,16 @@
+main {
+    min-height: 80vh;
+}
+
+/* footer */
+
+footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: var(--bs-dark);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
