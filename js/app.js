@@ -27,12 +27,15 @@ function displayMovies(movies){
         
         card.innerHTML+=
         `
-        <div class="col">
-          <div class="card">
+        <div class="col" >
+          <div class="card h-100">
           <img src="${IMAGE_PATH +poster_path}" alt="${title}" />
             <div class="card-body">
               <h5 class="card-title">${title}</h5>
               <p class="card-text">${overview}</p>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Ver Mas</button>
             </div>
           </div>
         </div>
